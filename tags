@@ -1,0 +1,18 @@
+Mphilo	philo.c	/^int main(int argc, char **argv)$/
+display_info	threads.c	/^int	display_info(char *str, t_philo *ph, uint64_t /
+ft_atoicheck	parse_utils.c	/^int	ft_atoicheck(char *nptr)$/
+ft_calloc	libft_utils.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/
+ft_fillprog	parse_utils.c	/^void ft_fillprog(uint64_t *params,int n,  t_prog */
+ft_init_philo	philo.c	/^void	ft_init_philo(t_philo *philo, t_prog p, int i/
+ft_isdigit	parse_utils.c	/^int	ft_isdigit(int c)$/
+ft_links	philo.c	/^void	ft_links(t_philo *ph, t_prog prog)$/
+ft_mainthread	threads.c	/^void	ft_mainthread(void *arg)$/
+ft_sleep	routines.c	/^void	ft_sleep(uint64_t tmsec, t_philo *ph)$/
+ft_strlen	parse_utils.c	/^int	ft_strlen(char *s)$/
+ft_thread_start	threads.c	/^void ft_thread_start(void *arg)$/
+ft_threads	philo.c	/^void ft_threads(t_philo *ph)$/
+get_time	routines.c	/^uint64_t get_time(void)$/
+handle_threads	threads.c	/^void handle_threads(t_philo *ph, t_prog p)$/
+parse_params	parse_utils.c	/^int	parse_params(char **argv, t_prog *p, int argc)/
+reat	routines.c	/^void	reat(t_philo *ph)$/
+rtake_forks	routines.c	/^void rtake_forks(t_philo *ph)$/
